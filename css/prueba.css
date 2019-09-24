@@ -11,11 +11,11 @@ ul.navbar-nav.ml-auto {display: table-row;}
 li.nav-item {display: table-cell;vertical-align: middle;width: 120px;text-align: center;font-size: small;font-weight: 700}
 a.nav-link{color:#fff!important}
 a.nav-link:hover{color:#fff200!important;}
-.search{margin:0px 3rem; }
+.search{margin:0px 2.5rem; }
 input.form-control.form-control-sm.ml-3.w-75 {background: #000;font-size: small;width: max-content!important;}
 .form-control:focus{border-color: #fff200;box-shadow: 0 0 0 0.2rem rgba(251, 255, 0, 0.25);color: #fff}
 .form-control{color: #fff}
-/*#faq {display: block!important}*/
+div#faq{width: 5px}
 #faq li.nav-item {width: max-content;font-weight:300}
 #faq a.nav-link{color: #ddd!important;}
 
