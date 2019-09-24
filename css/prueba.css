@@ -1,29 +1,55 @@
 /*!
 PRUEBA SEBASTIAN RUEDA
  */
-body {
-  padding-top: 56px;
-}
+body,p,h1, h2, h3, h4, h5, h6{font-family: 'Lato'!important}
+body {padding-top: 50px;background:#eee}
 
-.carousel-item {
-  height: 65vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+.logo-uni {height: 43px;content: url(../img/logo-header.png);}
+.fixed-top{background-color:#000;}
 
-.portfolio-item {
-  margin-bottom: 30px;
-}
+ul.navbar-nav.ml-auto {display: table-row;}
+li.nav-item {display: table-cell;vertical-align: middle;width: 120px;text-align: center;font-size: small;font-weight: 700}
+a.nav-link{color:#fff!important}
+a.nav-link:hover{color:#fff200!important;}
+.search{margin:0px 3rem; }
+input.form-control.form-control-sm.ml-3.w-75 {background: #000;font-size: small;width: max-content!important;}
+.form-control:focus{border-color: #fff200;box-shadow: 0 0 0 0.2rem rgba(251, 255, 0, 0.25);color: #fff}
+.form-control{color: #fff}
+/*#faq {display: block!important}*/
+#faq li.nav-item {width: max-content;font-weight:300}
+#faq a.nav-link{color: #ddd!important;}
 
-.logo-uni {
-    height: 43px;
-    content: url(../img/logo-header.png);
-}
+.carousel-item {height: 350px;min-height: 300px;background: no-repeat top center scroll;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+.carousel-inner{background-color:#fff;}
+.carousel-caption{bottom:30%;right: inherit;left:8%;padding: 5px;margin: 0;text-align: left;width:83%}
+.carousel-caption h3{line-height: 1;margin: 0;font-weight: 800;background: #fff200;color:#000;width: max-content;font-size:2.5rem}
+.carousel-caption p{width: 50%;font-size: small;margin-top: 2rem}
+.carroubtn {font-weight: 200!important;width: max-content!important;right: 0%;top: 100%;position: absolute;color: #fff!important;background: none!important;border: 2px solid #fff200!important;}
+.carroubtn:hover {background: #000!important}
+.carousel-control-next, .carousel-control-prev{width: 5%;}
+.carousel-indicators li{width: 10px;height: 10px;margin-right: 5px;margin-left: 5px;border-radius: 10px;border:none;}
 
+.my-4 {color: #212529;line-height:0.7;text-align: center;font-weight: 800;margin:2rem 0px;}
+.my-4 span {font-size: x-large;}
 
-.fixed-top
-{background-color:#000;}
+.card{cursor: pointer;}
+.card-header{padding: 0!important;margin-bottom: 0;background-color: rgba(0,0,0,.03); border-bottom: 1px solid rgba(0,0,0,.125);}
+.card-header img {width: 100%;}
+.card-header img:hover {mix-blend-mode: luminosity;}
+.card-tittle{text-align: center;margin-top: 10px;font-weight: 600;min-height: 80px;vertical-align: baseline;}
+.card-tittle hr{width: 65%;border: 3px solid #fff200; border-radius: 1px;margin-top: .3rem;margin-bottom: .1rem;}
+.card-body{padding: 0px 2.5rem 25px;}
+.btn-primary{background:#ccc;color:#000;width: 60%;border: 0px;text-align: center;font-weight: 600;margin:0 auto 20px}
+.btn-primary:hover{background:#fff200;color:#000}
+
+.py-5 {padding: 1rem!important;}
+.bg-dark {background-color: #000!important;}
+
+@media (max-width: 990px) {
+.navbar-dark .navbar-toggler{border-color: #aaa;}
+.my-4 {line-height:1;font-size: x-large;}
+.my-4 span {font-size: large;}
+.movil-none{display: none}
+.carousel-caption h3{width:fit-content;font-size:xx-large;text-align: center;margin-bottom: 10px}
+.carroubtn {position: relative;margin: 0 auto;float: right;}
+.search{display: none;}}

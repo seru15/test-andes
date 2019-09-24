@@ -1,31 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
   <!-- Etiquetas META, TAGS y SEO-->
-
   <meta name="description" content="Descripción para SEO">
   <meta name="author" content="Sebastian Rueda B.">
-
   <title>Prueba Front End</title> 
-
   <!-- Bootstrap CSS-->
   <link href="utilities/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
   <!-- Favicon -->
   <link rel="shortcut icon" href="https://www.uniandes.edu.co/sites/default/files/favicon.ico" type="image/ico" />
-
+  <!-- Lato Font -->
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   <!-- Estilos adicionales -->
   <link href="css/prueba.css" rel="stylesheet">
-
 </head>
-
 <body>
-
   <!-- Menú de Navegación -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top">
     <div class="container">
@@ -37,16 +28,35 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
+            <a class="nav-link" href="services.html">Nuestros Programas</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact.html">Programas para Organizaciones</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="contact.html">Quiénes Somos</a>
+          </li>
+        </ul>
+      </div>
+      <div class="search">
+        <!-- Search form -->
+        <form class="form-inline active-purple-3 active-purple-4">
+          <i class="fas fa-search" aria-hidden="true"></i>
+          <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="¿Qué quieres aprender?" aria-label="Search">
+        </form>
+      </div>
+      <div class="collapse navbar-collapse movil-none" id="faq">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">FAQ</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              ES
+            </a>
           </li>
         </ul>
       </div>
@@ -59,27 +69,39 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
         <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>First Slide</h3>
-            <p>This is a description for the first slide.</p>
+        <div class="carousel-item active" style="background-image: url('./img/slide-1.png')">
+          <div class="carousel-caption d-md-block">
+            <h3>MATEMÁTICAS PARA POSTGRADOS</h3>
+            <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a href="#" class="btn btn-primary carroubtn">Conoce más</a>
           </div>
         </div>
         <!-- Slide 2  -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Second Slide</h3>
-            <p>This is a description for the second slide.</p>
+        <div class="carousel-item" style="background-image: url('./img/slide-2.png')">
+          <div class="carousel-caption d-md-block">
+            <h3>MATEMÁTICAS PARA POSGRADOS</h3>
+            <p class="movil-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a href="#" class="btn btn-primary carroubtn">Conoce más</a>
           </div>
         </div>
-        <!-- Slide 3-->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Third Slide</h3>
-            <p>This is a description for the third slide.</p>
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url('./img/slide-3.png')">
+          <div class="carousel-caption d-md-block">
+            <h3>MATEMÁTICAS PARA POSGRADOS</h3>
+            <p class="movil-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a href="#" class="btn btn-primary carroubtn">Conoce más</a>
+          </div>
+        </div>
+        <!-- Slide 4 -->
+        <div class="carousel-item" style="background-image: url('./img/slide-4.png')">
+          <div class="carousel-caption d-md-block">
+            <h3>MATEMÁTICAS PARA POSGRADOS</h3>
+            <p class="movil-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a href="#" class="btn btn-primary carroubtn">Conoce más</a>
           </div>
         </div>
       </div>
@@ -97,41 +119,38 @@
   <!-- Contenido -->
   <div class="container">
 
-    <h1 class="my-4">1</h1>
+    <h1 class="my-4">EXPLORA NUESTRA OFERTA<span><br>¡Descubre lo que tenemos para ti!</span></h1>
 
     <!-- Cajas -->
     <div class="row">
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <h4 class="card-header">2</h4>
+          <span class="card-header"><img src="./img/content-1.png"></span>
+          <h4 class="card-tittle">NUESTROS<br>PROGRAMAS<hr></h4>
           <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+            <p class="card-text">Dirigidos a la comunidad en general y diseñados con el objetivo de formar, capacitar, actualizar y brindar conocimientos a los participantes en diferentes disciplinas.</p>
           </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
-          </div>
+          <a href="#" class="btn btn-primary">Conoce más</a>
         </div>
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <h4 class="card-header">2</h4>
+          <span class="card-header"><img src="./img/content-2.png"></span>
+          <h4 class="card-tittle">PROGRAMAS PARA<br>NIÑOS Y JOVENES<hr></h4>
           <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
+            <p class="card-text">Dirigidos a la comunidad en general y diseñados con el objetivo de formar, capacitar, actualizar y brindar conocimientos a los participantes en diferentes disciplinas.</p>
           </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
-          </div>
+          <a href="#" class="btn btn-primary">Conoce más</a>
         </div>
       </div>
       <div class="col-lg-4 mb-4">
         <div class="card h-100">
-          <h4 class="card-header">2</h4>
+          <span class="card-header"><img src="./img/content-3.png"></span>
+          <h4 class="card-tittle">PROGRAMAS PARA<br>ORGANIZACIONES<hr></h4>
           <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+            <p class="card-text">Dirigidos a la comunidad en general y diseñados con el objetivo de formar, capacitar, actualizar y brindar conocimientos a los participantes en diferentes disciplinas.</p>
           </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
-          </div>
+          <a href="#" class="btn btn-primary">Conoce más</a>
         </div>
       </div>
     </div>
@@ -154,5 +173,4 @@
   <script src="utilities/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
-
 </html>

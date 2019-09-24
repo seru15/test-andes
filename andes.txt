@@ -3,12 +3,3 @@ HEADER - SLIDER
 H1
 3 SECCIONES CAJA CON CTA
 MINI FOOT
-
-
-.logo {
-    height: 43px;
-    content: url(img/logo.png);
-}
-
-
-	
